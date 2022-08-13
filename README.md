@@ -28,9 +28,9 @@ Tutorial ini mengajarkan bagaimana penerapan bootstrap pada dokumen web dalam me
 ## Penamaan GitHub Repsitory Branch
 
 🚀 01 Desain Logo
-    ```html
-    belajar-bootstrap-5x-01-desain-logo
-    ```
+```html
+belajar-bootstrap-5x-01-desain-logo
+```
 
 ## Persyaratan
 
