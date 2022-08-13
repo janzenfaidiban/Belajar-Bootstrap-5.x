@@ -25,11 +25,16 @@ Tutorial ini mengajarkan bagaimana penerapan bootstrap pada dokumen web dalam me
 📚 [09 Desain Halaman Login](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/09-desain-halaman-login)  
 📚 [10 Desain Halaman Dasbor](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/10-desain-halaman-dasbor)  
 
-## Penamaan GitHub Repsitory Branch
+## Penamaan Branch Repository di GitHub 
 
 🚀 01 Desain Logo
 ```html
 belajar-bootstrap-5x-01-desain-logo
+```
+
+🚀 02 Desain Menu Navigasi
+```html
+belajar-bootstrap-5x-02-desain-menu-navigasi
 ```
 
 ## Persyaratan
