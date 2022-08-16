@@ -29,23 +29,14 @@ Tutorial ini mengajarkan bagaimana penerapan bootstrap pada dokumen web dalam me
 
 ```html
 belajar-bootstrap-5x-01-desain-logo
-
 belajar-bootstrap-5x-02-desain-menu-navigasi
-
 belajar-bootstrap-5x-03-desain-menu-dropdown
-
 belajar-bootstrap-5x-04-desain-pencarian
-
 belajar-bootstrap-5x-05-desain-banner-iklan
-
 belajar-bootstrap-5x-06-desain-link-sosial-media
-
 belajar-bootstrap-5x-07-desain-box-produk
-
 belajar-bootstrap-5x-08-desain-keranjang-belanja
-
 belajar-bootstrap-5x-09-desain-halaman-login
-
 belajar-bootstrap-5x-10-desain-halaman-dasbor
 ```
 
