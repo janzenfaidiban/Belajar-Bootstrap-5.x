@@ -12,6 +12,15 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <style>
+        * {
+            font-family: 'Quicksand';
+        }
+    </style>
+
 </head>
 
 <body>
@@ -199,15 +208,16 @@
     <div class="border shadow py-5 my-5">
         
         <!-- .container start -->
-        <div class="container">
+        <div class="container my-5 ">
             
             <form>
 
                 <div class="form-group d-flex">
 
-                    <input type="text" class="form-control form-control-lg me-2" placeholder="Nama produk...">
+                    <input type="text" class="form-control form-control-lg px-5 py-3 me-4 rounded-5 me-2 shadow" placeholder="Nama produk...">
 
-                    <button class="btn btn-lg btn-success">Cari</button>
+                    <button type="button" class="btn btn-lg btn-success rounded-5 px-5 shadow" style="width:180px;">
+                        <i class="fa-solid fa-search"></i> Cari</button>
                 </div>
 
             </form>
@@ -222,39 +232,33 @@
     <div class="border shadow py-5 my-5">
         
         <!-- .container start -->
-        <div class="container">
+        <div class="container my-5 shadow border rounded">
            
-            <div class="row">
+            <div class="row p-5">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center">
                     
-                    <h1 class="display-1 fw-bolder text-success">
-                        <i class="fa-solid fa-leaf mb-4"></i>
-                        SaZhop
-                    </h1>
+                    <span class="fw-lighter badge bg-secondary fs-6 fw-bold">
+                        Buah & Sayur
+                    </span>
+                    <h1 class="fw-bolder text-muted">
+                        <span class="display-1 d-grid fw-bolder text-success text-capitalize">aneka jenis buah segar</span>
+                    </h1>                   
 
-                    <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam explicabo eius illo sunt maiores quaerat voluptatibus magnam nobis unde magni illum officiis praesentium, perspiciatis nemo dignissimos. Vero voluptatibus corrupti repudiandae!</p>
-
-                    <div class="border p-4 rounded shadow bg-warning d-grid text-center w-75">
-                        <h1 class="text-success fw-bolder">
-                            Sayur Bayam
-                        </h1>
-    
-                        <p class="text-danger fw-bold fs-2">Rp 20.000</p>
-
-                        <button class="btn btn-lg btn-success text-warning mb-2">
-                            <i class="fa-solid fa-cart-shopping"></i> Masuk Keranjang
-                        </button>
-
-                    </div>
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam explicabo eius illo sunt maiores quaerat voluptatibus magnam nobis unde magni illum officiis praesentium, perspiciatis nemo dignissimos.</p>
 
                     
+
+                    <button class="btn btn-lg btn-success text-light fs-3 fw-bolder">
+                        <div class="fa-solid fa-cart-shopping"></div>
+                        Pesan Sekarang
+                    </button> 
 
                 </div>
 
                 <div class="col-lg-6 text-end">
                     
-                    <img src="https://img.freepik.com/free-vector/sale-full-shopping-cart-red-pictogram_1284-8505.jpg?w=826&t=st=1660666579~exp=1660667179~hmac=5d545d2659529592d81bd422d8ee5c150c487f16c9fb9f8f7f06e91909cc1d99" alt="Cart Shopping" class="w-75">
+                    <img src="./assets/img/banner/banner-1.jpg" class="w-100">
 
                 </div>
 
@@ -262,6 +266,45 @@
 
         </div>
         <!-- .container end -->
+
+
+
+        <!-- .container start -->
+        <div class="container my-5 shadow border rounded bg-success">
+           
+            <div class="row p-5">
+
+                <div class="col-lg-6 text-center">
+                    
+                    <span class="fw-lighter badge bg-light fs-6 fw-bold text-dark">
+                        Buah & Sayur
+                    </span>
+                    <h1 class="fw-bolder text-muted">
+                        <span class="display-1 d-grid fw-bolder text-light text-capitalize">aneka jenis buah segar</span>
+                    </h1>                   
+
+                    
+
+                </div>
+
+                <div class="col-lg-6 text-start align-middle">
+                    
+                    <p class="text-light my-4 fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam explicabo eius illo sunt maiores quaerat voluptatibus magnam nobis unde magni illum officiis praesentium, perspiciatis nemo dignissimos.</p>
+
+                    
+
+                    <button class="btn btn-lg btn-light text-success fs-3 fw-bolder">
+                        <div class="fa-solid fa-cart-shopping"></div>
+                        Pesan Sekarang
+                    </button> 
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- .container end -->
+
 
     </div>
     <!-- BANNER END -->
