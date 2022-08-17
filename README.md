@@ -42,25 +42,16 @@ belajar-bootstrap-5x-10-desain-halaman-dasbor
 
 ## Project Demos
 
-📚 [Project01](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project01/index.html)
-
-📚 [Project02](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project02/index.html)
-
-📚 [Project03](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project03/index.html)
-
-📚 [Project04](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project04/index.html)
-
-📚 [Project05](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project05/index.html)
-
-📚 [Project06](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project06/index.html)
-
-📚 [Project07](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project07/index.html)
-
-📚 [Project08](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project08/index.html)
-
-📚 [Project09](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project09/index.html)
-
-📚 [Project10](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project10/index.html)
+📚 [Project01](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project01/index.html) <br>
+📚 [Project02](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project02/index.html) <br>
+📚 [Project03](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project03/index.html) <br>
+📚 [Project04](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project04/index.html) <br>
+📚 [Project05](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project05/index.html) <br>
+📚 [Project06](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project06/index.html) <br>
+📚 [Project07](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project07/index.html) <br>
+📚 [Project08](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project08/index.html) <br>
+📚 [Project09](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project09/index.html) <br>
+📚 [Project10](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/demo/project10/index.html) <br>
 
 
 ## Persyaratan
