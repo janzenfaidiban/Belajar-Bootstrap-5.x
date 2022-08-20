@@ -204,12 +204,13 @@
     </div>
     <!-- HEADER END -->
 
-    <!-- LOGIN START -->
+
+    <!-- CONTENT START -->
     <div class="py-5">
 
         <!-- .container start -->
         <div class="container my-5">
-
+            
             <!-- .row start -->
             <div class="row">
 
@@ -223,9 +224,9 @@
                         <div class="card-header pt-5 bg-success">
                             
                             <h1 class="display-1 fw-bolder text-light">
-                                <i class="fa-solid fa-right-from-bracket"></i> Login
+                                <i class="fa-solid fa-right-from-bracket"></i> Register
                             </h1>
-                            <p class="text-light my-4">Silahkan login dengan akun Anda dengan memasukan <br> alamat email dan kata sandi.</p>
+                            <p class="text-light my-4">Silahkan register  akun Anda dengan memasukan <br> biodata dan hak akses</p>
 
                         </div>
                         <!-- .card-header end -->
@@ -238,8 +239,57 @@
 
                                 <!-- .form-group start -->
                                 <div class="form-group mb-3">
+                                    <label for="kata-sandi" class="form-label fw-bolder text-muted">
+                                        <i class="fa-solid fa-id-card-clip me-1"></i>
+                                        Nama Lengkap
+                                    </label>
+                                    <input type="text" id="nama-lengkap" class="form-control form-control-lg p-4" placeholder="Nama lengkap...">
+                                </div>
+                                <!-- .form-group end -->
+
+                                <!-- .form-group start -->
+                                <div class="form-group mb-3">
+                                    <label for="kata-sandi" class="form-label fw-bolder text-muted">
+                                        <i class="fa-solid fa-person-half-dress me-1"></i>
+                                        Jenis Kelamin
+                                    </label>
+                                    <select id="jenis-kelamin" class="form-select form-select-lg py-4 mb-3">
+                                        <option selected>Pilih</option>
+                                        <option value="l">Laki-Laki</option>
+                                        <option value="p">Perempuan</option>
+                                    </select>
+                                </div>
+                                <!-- .form-group end -->
+
+                                <!-- .form-group start -->
+                                <div class="form-group mb-3">
+                                    <label for="kata-sandi" class="form-label fw-bolder text-muted">
+                                        <i class="fa-solid fa-tag me-1"></i>
+                                        Tanggal Lahir
+                                    </label>
+                                    <input type="date" id="alamat-email" class="form-control form-control-lg p-4">
+                                </div>
+                                <!-- .form-group end -->
+
+                                <!-- .form-group start -->
+                                <div class="form-group mb-3">
+                                    <label for="kata-sandi" class="form-label fw-bolder text-muted">
+                                        <i class="fa-solid fa-location-pin me-1"></i>
+                                        Alamat
+                                    </label>
+                                    <textarea id=""  rows="5" class="form-control form-control-lg" placeholder="Alamat..."></textarea>
+                                </div>
+                                <!-- .form-group end -->
+
+                                <hr class="my-5">
+
+                                <h5 class="mb-4 fw-bolder text-success">Hak Akses</h5>
+
+                                <!-- .form-group start -->
+                                <div class="form-group mb-3">
                                     <label for="alamat-email" class="form-label fw-bolder text-muted">
-                                        <i class="fa-solid fa-envelope me-1"></i> Alamat Email
+                                        <i class="fa-solid fa-envelope me-1"></i>
+                                        Alamat Email
                                     </label>
                                     <input type="email" id="alamat-email" class="form-control form-control-lg p-4" placeholder="Alamat email...">
                                 </div>
@@ -248,12 +298,20 @@
                                 <!-- .form-group start -->
                                 <div class="form-group mb-3">
                                     <label for="kata-sandi" class="form-label fw-bolder text-muted">
-                                        <i class="fa-solid fa-lock me-1"></i> Kata Sandi
+                                        <i class="fa-solid fa-lock me-1"></i>
+                                        Kata Sandi
                                     </label>
                                     <input type="password" id="kata-sandi" class="form-control form-control-lg p-4" placeholder="Kata sandi...">
-                                    <small class="">
-                                        <a href="#" class="text-decoration-none link-success mt-2 d-block">Lupa kata sandi</a>
-                                    </small>
+                                </div>
+                                <!-- .form-group end -->
+
+                                <!-- .form-group start -->
+                                <div class="form-group mb-3">
+                                    <label for="kata-sandi" class="form-label fw-bolder text-muted">
+                                        <i class="fa-solid fa-lock me-1"></i>
+                                        Ulang Kata Sandi
+                                    </label>
+                                    <input type="password" id="ulang-kata-sandi" class="form-control form-control-lg p-4" placeholder="Ulang Kata sandi...">
                                 </div>
                                 <!-- .form-group end -->
 
@@ -262,7 +320,7 @@
                                 <!-- .form-group start -->
                                 <div class="form-group mb-3">
                                     <button type="submit" class="btn btn-lg btn-success text-warning p-4 w-100 fw-bolder">
-                                        <i class="fa-solid fa-right-to-bracket fw-bolder me-2"></i> Login
+                                        <i class="fa-solid fa-right-to-bracket fw-bolder me-2"></i> Register
                                     </button>
                                 </div>
                                 <!-- .form-group end -->
@@ -276,8 +334,8 @@
 
                         <!-- .card-footer start -->
                         <div class="card-footer py-5">
-                            Belum punya akun? 
-                            <a href="register.html" class="link-success text-decoration-none fw-bolder">Register</a>
+                            Sudah punya akun? 
+                            <a href="login.html" class="link-success text-decoration-none fw-bolder">Login</a>
                         </div>
                         <!-- .card-footer end -->
 
@@ -293,8 +351,9 @@
         </div>
         <!-- .container end -->
 
+
     </div>
-    <!-- LOGIN END -->
+    <!-- CONTENT END -->
 
     <!-- FOOTER START -->
     <div class="bg-success border-top border-warning border-5 py-5 mt-5">
