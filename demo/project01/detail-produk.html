@@ -161,13 +161,37 @@
             </div>
             <!-- .row end -->
 
+            
+            <!-- .row start -->
+            <div class="row py-3">
+                <!-- .col start -->
+                <div class="col-12">
+                    <!-- form start -->
+                    <form class="">
+                        <div class="input-group input-group-lg">
+                            <!-- input text -->
+                            <input type="text" class="form-control form-control-sm px-5 py-4 shadow" placeholder="Nama produk..."
+                                aria-label="Nama produk..." aria-describedby="button-addon2">
+
+                            <!-- tombol cari -->
+                            <button class="btn btn-success fw-bolder px-lg-5 text-warning" type="button"
+                                id="button-addon2">
+                                <i class="fa-solid fa-search me-2"></i> Cari</button>
+                        </div>
+                    </form>
+                    <!-- form end -->
+                </div>
+                <!-- .col end -->
+            </div>
+            <!-- .row end -->
+
         </div>
         <!-- .container end -->
 
     </div>
     <!-- HEADER END -->
 
-    <!-- WISH LIST START -->
+    <!-- CART SHOPPING START -->
     <div class="py-5">
 
         <!-- .container start -->
@@ -179,7 +203,7 @@
                 <!-- .col start -->
                 <div class="col-6 mx-auto my-5 text-center">
                     <h1 class="display-4 fw-bolder text-success">
-                        <i class="fa-solid fa-heart-circle-check me-2"></i> Daftar Suka
+                        <i class="fa-solid fa-cart-shopping me-2"></i> Keranjang Belanja
                     </h1>
                     <p class="text-muted pt-4">Berbagai Jenis Produk Sayuran dan Buahan Segar <br> Dengan Harga Yang
                         Sangat Terjangkau.</p>
@@ -196,191 +220,87 @@
                 <div class="col-xl-8 col-lg-8 ">
                     <!-- .card start -->
                     <div class="card">
-                        <!-- .card-body start -->
-                        <div class="card-body">
-                            <table class="table table-striped table-hover">
-                                <thead>
-                                    <tr>
-                                        <th class="py-3 bg-success text-warning fw-bolder" colspan="2">No</th>
-                                        <th class="py-3 bg-success text-warning fw-bolder">Harga</th>
-                                        <th class="py-3 bg-success text-warning fw-bolder text-center">Hapus</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="./assets/img/thumbnail-1.jpg" alt="Produk" class="img img-fluid rounded-start">
+                            </div>
+                            <div class="col-6">
+                                
+                                <div class="card-body py-4 pe-4">
+                                    <h1 class="display-5 card-title fw-bolder text-success">Wortel</h1>
 
-                                    <!-- product item start -->
-                                    <tr>
-                                        <td class="d-flex d-grid gap-4">
-                                            <div>
-                                                <input type="checkbox" class="form-check-input">
-                                            </div>
-                                            <div>
-                                                <img src=".//assets/img/thumbnail-1.jpg" alt="Produk"
-                                                    class="img img-thumbnail" width="150px;">
-                                            </div>
-                                            <div>
-                                                <h5 class="fw-bolder text-success">Sayur Bayam</h5>
-                                                <small class="pt-2">
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-regular fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-regular fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                </small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <small class="pt-2">
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                            </small>
-                                        </td>
-                                        <td class="fw-bolder">
-                                            Rp. 20.000,-
-                                        </td>
-                                        <td class="text-center">
-                                            <a href="#" class="link-success"><i class="fa-solid fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <!-- product item end -->
+                                    <small class="my-4 d-block">
+                                        <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
+                                        <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
+                                        <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
+                                    </small>
 
-                                    <!-- product item start -->
-                                    <tr>
-                                        <td class="d-flex d-grid gap-4">
-                                            <div>
-                                                <input type="checkbox" class="form-check-input">
-                                            </div>
-                                            <div>
-                                                <img src=".//assets/img/thumbnail-2.jpg" alt="Produk"
-                                                    class="img img-thumbnail" width="150px;">
-                                            </div>
-                                            <div>
-                                                <h5 class="fw-bolder text-success">Paprika</h5>
-                                                <small class="pt-2">
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-regular fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-regular fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                </small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <small class="pt-2">
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                            </small>
-                                        </td>
-                                        <td class="fw-bolder">
-                                            Rp. 20.000,-
-                                        </td>
-                                        <td class="text-center">
-                                            <a href="#" class="link-success"><i class="fa-solid fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <!-- product item end -->
+                                    <p class="card-text text-secondary">Sayur segar dengan harga sangat terjangkau dengan
+                                        pengiriman yang cepat.</p>
 
-                                    <!-- product item start -->
-                                    <tr>
-                                        <td class="d-flex d-grid gap-4">
-                                            <div>
-                                                <input type="checkbox" class="form-check-input">
-                                            </div>
-                                            <div>
-                                                <img src=".//assets/img/thumbnail-3.jpg" alt="Produk"
-                                                    class="img img-thumbnail" width="150px;">
-                                            </div>
-                                            <div>
-                                                <h5 class="fw-bolder text-success">Mangga</h5>
-                                                <small class="pt-2">
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-regular fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-regular fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                    <a href="#" class="link-success"><i
-                                                            class="fa-solid fa-star"></i></a>
-                                                </small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <small class="pt-2">
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                            </small>
-                                        </td>
-                                        <td class="fw-bolder">
-                                            Rp. 20.000,-
-                                        </td>
-                                        <td class="text-center">
-                                            <a href="#" class="link-success"><i class="fa-solid fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <!-- product item end -->
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="text-success fw-bolder">
+                                            Rp. 15.000,-
+                                        </h3>
+                                        <h6 class="fs-6 text-decoration-line-through text-danger">
+                                            Rp. 25.000,-
+                                        </h6>
+                                    </div>
+                                    
 
-                                    <!-- product item start -->
-                                    <tr>
-                                        <td class="d-flex d-grid gap-4">
-                                            <div>
-                                                <input type="checkbox" class="form-check-input">
-                                            </div>
-                                            <div>
-                                                <img src=".//assets/img/thumbnail-4.jpg" alt="Produk"
-                                                    class="img img-thumbnail" width="150px;">
-                                            </div>
-                                            <div>
-                                                <h5 class="fw-bolder text-success">Pisang</h5>
-                                                <small class="pt-2">
-                                                    <p class="text-muted"> Dolores voluptatem rerum architecto officiis
-                                                        velit vero perspiciatis!</p>
-                                                </small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <small class="pt-2">
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-regular fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                                <a href="#" class="link-success"><i class="fa-solid fa-star"></i></a>
-                                            </small>
-                                        </td>
-                                        <td class="fw-bolder">
-                                            Rp. 20.000,-
-                                        </td>
-                                        <td class="text-center">
-                                            <a href="#" class="link-success"><i class="fa-solid fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <!-- product item end -->
+                                    <!-- tombol keranjang -->
+                                    <form action="./keranjang-belanja.html" class="mt-4">
+                                        <button class="btn btn-success btn-lg text-warning">
+                                            <i class="fa-solid fa-cart-shopping"></i> Masuk Keranjang
+                                        </button>
+                                    </form>
 
+                                </div>
 
-                                </tbody>
-                            </table>
+                            </div>
                         </div>
-                        <!-- .card-body end -->
+
+                        <div class="row">
+                            <div class="col-12">
+                                
+
+                                <div class="card-footer p-4">
+
+                                    <h5 class="fw-bolder my-4">Keterangan</h5>
+
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptas veritatis vero explicabo ea minima voluptate ullam earum, cum adipisci totam incidunt pariatur at sequi voluptatum numquam, eaque doloribus labore?</p>
+
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                        <li>Error iste, repudiandae, hic neque praesentium minima fuga animi blanditiis qui odit aspernatur voluptates reprehenderit eos. Autem, placeat.</li>
+                                        <li>Repudiandae esse totam veritatis!.</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                        <li>Error iste, repudiandae, hic neque praesentium minima fuga animi blanditiis qui odit aspernatur voluptates reprehenderit eos. Autem, placeat.</li>
+                                        <li>Repudiandae esse totam veritatis!.</li>
+                                    </ul>
+
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptas veritatis vero explicabo ea minima voluptate ullam earum, cum adipisci totam incidunt pariatur at sequi voluptatum numquam, eaque doloribus labore?</p>
+
+                                    <h5 class="fw-bolder my-4">Kemasan & Pengiriman</h5>
+
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptas veritatis vero explicabo ea minima voluptate ullam earum, cum adipisci totam incidunt pariatur at sequi voluptatum numquam, eaque doloribus labore?</p>
+
+                                    <h5 class="fw-bolder my-4">Saran Penggunaan</h5>
+
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptas veritatis vero explicabo ea minima voluptate ullam earum, cum adipisci totam incidunt pariatur at sequi voluptatum numquam, eaque doloribus labore?</p>
+
+                                    <h5 class="fw-bolder my-4">Peringatan</h5>
+
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptas veritatis vero explicabo ea minima voluptate ullam earum, cum adipisci totam incidunt pariatur at sequi voluptatum numquam, eaque doloribus labore?</p>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                     <!-- .card end -->
                 </div>
@@ -391,46 +311,63 @@
 
                     <!-- .list-group start -->
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between p-4">
-                            <div>
-                                Sub Total
-                            </div>
-                            <div class="fw-bolder text-success">
-                                Rp 20.000
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between p-4">
-                            <div>
-                                Pengiriman
-                            </div>
-                            <div class="fw-bolder text-success">
-                                Free
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between p-4">
-                            <div>
-                                Tujuan
-                            </div>
-                            <div class="fw-bolder text-success">
-                                Biak
-                            </div>
-                        </li>
                         <li class="list-group-item d-flex justify-content-between p-4 bg-success text-warning">
                             <div class="fw-bold">
-                                Total
+                                Kategori Produk
                             </div>
-                            <div class="fw-bolder">
-                                Rp 20.000
-                            </div>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#" class="text-decoration-none link-success d-flex justify-content-between p-2 py-3">
+                                <div>
+                                    Sayuran
+                                </div>
+                                <span>
+                                    <span class="badge bg-success rounded-pill link-warning">44</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#" class="text-decoration-none link-success d-flex justify-content-between p-2 py-3">
+                                <div>
+                                    Buah Segar
+                                </div>
+                                <span>
+                                    <span class="badge bg-success rounded-pill link-warning">44</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#" class="text-decoration-none link-success d-flex justify-content-between p-2 py-3">
+                                <div>
+                                    Bahan Kue
+                                </div>
+                                <span>
+                                    <span class="badge bg-success rounded-pill link-warning">32</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#" class="text-decoration-none link-success d-flex justify-content-between p-2 py-3">
+                                <div>
+                                    Kopi & Teh
+                                </div>
+                                <span>
+                                    <span class="badge bg-success rounded-pill link-warning">50</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a href="#" class="text-decoration-none link-success d-flex justify-content-between p-2 py-3">
+                                <div>
+                                    Susu
+                                </div>
+                                <span>
+                                    <span class="badge bg-success rounded-pill link-warning">20</span>
+                                </span>
+                            </a>
                         </li>
                     </ul>
                     <!-- .list-group end -->
-
-                    <!-- .btn start -->
-                    <a href="#" class="btn btn-lg btn-success text-warning fw-bolder w-100 py-4 mt-4">
-                        <i class="fa-solid fa-cart-shopping me-2"></i> Proses Sekarang
-                    </a>
-                    <!-- .btn end -->
 
                 </div>
                 <!-- .col end -->
@@ -440,7 +377,7 @@
         <!-- .container end -->
 
     </div>
-    <!-- WISH LIST END -->
+    <!-- CART SHOPPING END -->
 
     <!-- FOOTER START -->
     <div class="bg-success border-top border-warning border-5 py-5 mt-5">
