@@ -55,8 +55,9 @@ belajar-bootstrap-5x-10-desain-halaman-dasbor
 
 ## Tugas 
 
-🌐 [Project01](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/tugas/desain-logo.html) <br>
-🌐 [Project01](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/tugas/desain-navigasi.html) <br>
+🌐 [Desain Logo](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/tugas/desain-logo.html) <br>
+🌐 [Desain Navigasi](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/tugas/desain-navigasi.html) <br>
+🌐 [Desain Top Bar](https://janzenfaidiban.github.io/Belajar-Bootstrap-5.x/tugas/desain-top-bar.html) <br>
 
 ## Persyaratan
 
