@@ -94,8 +94,21 @@ belajar-bootstrap-5x-10-desain-halaman-dasbor
 
 ## Git Commands
 
-Delete branch
+Hapus branch secara lokal
 
 ```git
 git branch -d <branch-name>
 ```
+
+Hapus branch secara remot
+
+```git
+git push <remote-name> -d <branch-name>
+```
+
+Lihat semua branch secara remot
+
+```git
+git branch -a
+```
+
