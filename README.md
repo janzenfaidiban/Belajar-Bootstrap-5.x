@@ -14,16 +14,19 @@ Tutorial ini mengajarkan bagaimana penerapan bootstrap pada dokumen web dalam me
 
 ## Material Source Code
 
-📚 [01 Desain Logo](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/01-desain-logo)  
-📚 [02 Desain Menu Navigasi](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/02-desain-menu-navigasi)  
-📚 [03 Desain Menu Dropdown](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/03-desain-menu-dropdown)  
-📚 [04 Desain Pencarian](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/04-desain-pencarian)  
-📚 [05 Desain Banner Iklan](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/05-desain-banner-iklan)  
-📚 [06 Desain Link Sosial Media](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/06-desain-link-sosial-media)  
-📚 [07 Desain Box Produk](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/07-desain-box-produk)  
-📚 [08 Desain Keranjang Belanja](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/08-desain-keranjang-belanja)  
-📚 [09 Desain Halaman Login](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/09-desain-halaman-login)  
-📚 [10 Desain Halaman Dasbor](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/10-desain-halaman-dasbor)  
+📚 [Project 01](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-01)  
+📚 [Project 02](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-02)  
+📚 [Project 03](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-03)  
+📚 [Project 04](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-04)  
+📚 [Project 05](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-05)  
+📚 [Project 06](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-06)  
+📚 [Project 07](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-07)  
+📚 [Project 08](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-08)  
+📚 [Project 09](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-09)  
+📚 [Project 10](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-10)  
+📚 [Project 11](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-11)  
+📚 [Project 12](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-12)  
+📚 [Project 13](https://github.com/janzenfaidiban/Belajar-Bootstrap-5.x/tree/project-13)  
 
 ## Penamaan Repository
 
@@ -88,3 +91,11 @@ belajar-bootstrap-5x-10-desain-halaman-dasbor
 📚 Desain halaman admin > ubah produk <br>
 📚 ... <br>
 📚 ... <br>
+
+## Git Commands
+
+Delete branch
+
+```git
+git branch -d <branch-name>
+```
